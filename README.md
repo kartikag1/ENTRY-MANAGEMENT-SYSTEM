@@ -1,4 +1,4 @@
-# assignment-sg
+# sg
 
 To run this application:
 
