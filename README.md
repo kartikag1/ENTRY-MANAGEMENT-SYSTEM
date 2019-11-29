@@ -13,3 +13,4 @@ To run this application:
 Approach:
  At localhost:5000 ,  fields take the input and store in the database along with check-in timestamp and as a visitor check's in , respective notification is sent to the host via e-mail , when the visitor leaves(check's out) visitor models are updated with check-out timestamp and visitor is notified   
  
+ *Do ensure SMTP permissions of your mail service provider for working of nodemailer*
