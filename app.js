@@ -25,7 +25,7 @@ var ejs = require("ejs");
 
  
 let transporter = nodemailer.createTransport({
-  service: 'gmail',
+  service: process.env.HOST,
   auth: {
     user: process.env.SENDING_EMAIL,
     pass: process.env.SENDING_EMAIL_PASS
